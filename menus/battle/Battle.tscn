@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://menus/buttons/GenericButton.tscn" type="PackedScene" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GenericButton" parent="." instance=ExtResource( 1 )]
+margin_left = 17.5696
+margin_top = 330.703
+margin_right = 228.57
+margin_bottom = 513.703
+hint_tooltip = "Attack"
+
+[node name="GenericButton2" parent="." instance=ExtResource( 1 )]
+margin_left = 247.615
+margin_top = 331.811
+margin_right = 458.615
+margin_bottom = 514.811
